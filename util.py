@@ -37,8 +37,8 @@ def get_text_label(window, text):
 
 def get_entry_text(window):
     inputtxt = tk.Text(window,
-                       height=2,
-                       width=15, font=("Arial", 32))
+                       height=1,
+                       width=15, font=("Arial", 16))
     return inputtxt
 
 
